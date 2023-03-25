@@ -1,0 +1,10 @@
+@import 'global/global.css';
+@import 'global/header.css';
+@import 'global/footer.css';
+@import 'utilidades/cores-e-fontes.css';
+@import 'utilidades/componentes.css';
+@import 'utilidades/animacao.css';
+@import 'home/introducao.css';
+@import 'home/sobre.css';
+@import 'kits/kits.css';
+@import 'cardapio/cardapio.css';

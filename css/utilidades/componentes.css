@@ -1,0 +1,31 @@
+.botao {
+  display: inline-block;
+  padding: 16px 32px;
+  background: var(--c6);
+  max-width: max-content;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.botao:hover {
+  background: var(--c8);
+}
+
+@media (max-width: 800px) {
+  .botao {
+    padding: 8px 16px;
+  }
+}
+
+.title-article{
+  padding: 80px 40px;
+}
+
+.title-article h2{
+  margin-bottom: 20px;
+}
+
+.botao.secundario{
+  align-self: center;
+  padding: 12px 48px;
+}

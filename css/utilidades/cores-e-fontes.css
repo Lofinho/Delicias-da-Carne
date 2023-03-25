@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&family=Poppins:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* 
+font-family: 'Lobster Two', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; 
+*/
+
+:root {
+  --c0: #f2f2f2;
+  --c1: #e8e8e8;
+  --c2: #000000;
+  --c3: #222222;
+  --c4: #5a6769;
+  --c5: #f7a808;
+  --c6: #f82828;
+  --c7: #cf0e0e;
+  --c8: #c40f0f;
+  --c9: #d32d2a;
+}
+
+/* FONTES */
+
+.font-1-b {
+  font: 700 1.125rem/1.5 'Poppins', sans-serif;
+}
+
+.font-1-r {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+.font-1-xl {
+  font: 600 3rem/1.5 'Poppins', sans-serif;
+}
+
+.font-1-xl-b{
+  font: 700 3rem/1.5 'Poppins', sans-serif;
+}
+
+.font-1-p-xl {
+  font: 700 1.5rem/2 'Poppins', sans-serif;
+}
+
+.font-1-m {
+  font: 400 2rem/2 'Poppins', sans-serif;
+}
+
+.font-1-s {
+  font: 600 1rem/2 'Poppins', sans-serif;
+}
+
+.font-1-p-m {
+  font: 600 1.25rem/2 'Poppins', sans-serif;
+}
+
+.font-1-p-s {
+  font: 400 1.25rem/2 'Poppins', sans-serif;
+}
+
+.font-2-p-xl {
+  font: 700 1.5rem/2 'Roboto', sans-serif;
+}
+
+.font-2-p-m {
+  font: 500 1.25rem/2 'Roboto', sans-serif;
+}
+
+.font-2-p-s {
+  font: 400 1.125rem/2 'Roboto', sans-serif;
+}
+
+.font-2-p-xs {
+  font: 700 1rem/2 'Roboto', sans-serif;
+}
+
+.font-2-p-xsb {
+  font: 700 0.875rem/2 'Roboto', sans-serif;
+}
+
+.font-2-m {
+  font: 700 2rem/2 'Roboto', sans-serif;
+}
+
+.font-2-r {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.font-2-b {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.font-3-xl {
+  font: 700 3rem/1.5 'Lobster Two', cursive;
+}
+
+.font-3-x {
+  font: 700 2.5rem/1.5 'Lobster Two', cursive;
+}
+
+.font-3-m {
+  font: 400 2rem/1.5 'Lobster Two', cursive;
+}
+
+.font-3-r {
+  font-family: 'Lobster Two', cursive;
+  font-weight: 400;
+}
+
+.font-3-b {
+  font-family: 'Lobster Two', cursive;
+  font-weight: 700;
+}
+
+/* CORES */
+
+.cor-0 {
+  color: #f2f2f2;
+}
+
+.cor-1 {
+  color: #222222;
+}
+
+.cor-2 {
+  color: #f82828;
+}
+
+.cor-3{
+  color: #cf0e0e;
+}

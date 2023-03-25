@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+html{
+  scroll-behavior: smooth;
+  box-shadow: inset 0 100px var(--c2);
+}
+
+a {
+  color: inherit;
+}
+
+.container {
+    margin-inline: auto;
+    max-width: 1200px;
+    padding-inline: 20px;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}

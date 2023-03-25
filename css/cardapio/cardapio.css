@@ -1,0 +1,69 @@
+.cardapio-bg {
+  background: var(--c9);
+  padding-block: 80px;
+  margin-block: 60px;
+}
+
+.cardapio-bg h2 {
+  text-align: center;
+}
+
+.links-cardapio {
+  padding-block: 40px;
+  margin-block: 20px;
+  border-block: 4px solid var(--c9);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.links-cardapio a {
+  display: block;
+  position: relative;
+  transition: 0.3s;
+  height: 200px;
+}
+
+.links-cardapio h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding-block: 10px;
+  text-transform: uppercase;
+}
+
+.links-cardapio a:hover h3 {
+  background: rgba(248, 40, 40, 0.5);
+}
+
+.links-cardapio a:hover {
+  transform: scale(1.1);
+}
+
+#cardapio article {
+  border: 7px solid #624327;
+  overflow: hidden;
+}
+
+#cardapio article img{
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width:1200px){
+  .links-cardapio{
+    grid-template-columns: 1fr 1fr;
+    max-width: 800px;
+  }
+}
+
+@media (max-width:800px){
+  .links-cardapio{
+    grid-template-columns: 1fr;
+    max-width: 500px;
+  }
+}

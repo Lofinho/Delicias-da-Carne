@@ -1,0 +1,47 @@
+#sobre{
+  margin-inline: 5%;
+}
+
+.sobre-bg{
+  background: var(--c9);
+  text-align: center;
+}
+
+.sobre-info{
+  margin-top: 50px;
+  padding-block: 20px;
+}
+
+.sobre-complemento{
+  text-align: center;
+}
+
+.info-cards{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card{
+  box-shadow: 10px 10px 0 rgba(0, 0, 0, .05);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  flex: 1;
+  max-width: 500px;
+}
+
+.sobre-complemento h3{
+  padding-block: 40px;
+}
+
+@media (max-width:800px){
+  .info-cards{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
