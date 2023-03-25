@@ -1,7 +1,7 @@
 # Delicias-da-Carne
 
-Esse é um projeto acadêmico que fiz pegando algumas inspirações de outros sites da web.
-Ainda irei fazer algumas alterações em Javascript.
+Esse é um projeto acadêmico que fiz pegando algumas inspirações de outros sites da web. <br>
+Ainda irei fazer algumas alterações em Javascript.<br>
 
 Link de acesso para o projeto:
 
